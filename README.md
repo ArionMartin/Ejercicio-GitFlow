@@ -193,7 +193,7 @@ Por ejemplo, agrega una breve descripción del sistema en la siguiente sección:
 
 Escribe aquí una descripción breve del sistema:
 
-> Respuesta del estudiante: ...
+> Este sistema, desarrollado en Node.js, permite calcular descuentos sobre el precio de productos. Incluye una función para restar descuentos fijos y una funcionalidad que aplica un descuento del 15 % a clientes de tipo estudiante. También cuenta con pruebas automatizadas para verificar los cálculos y validar precios negativos.
 
 Luego realice un commit:
 
