@@ -274,43 +274,43 @@ Responda las siguientes preguntas directamente en este archivo `README.md`.
 
 ### 1. ¿Cuál es la diferencia entre `main` y `develop` en Git-flow?
 
-Respuesta:
+Respuesta: main contiene las versiones estables y publicadas del sistema, mientras que develop integra los cambios en desarrollo.
 
 ---
 
 ### 2. ¿Por qué la funcionalidad se desarrolló en una rama `feature` y no directamente en `main`?
 
-Respuesta:
+Respuesta: La rama feature permite desarrollar y probar una funcionalidad de forma aislada, sin afectar la versión estable de main.
 
 ---
 
 ### 3. ¿Qué hace el comando `git merge --no-ff`?
 
-Respuesta:
+Respuesta: git merge --no-ff realiza la fusión creando un commit de merge incluso cuando sería posible un fast-forward, dejando explícita la integración en el historial.
 
 ---
 
 ### 4. ¿Qué diferencia habría si Git hiciera un merge con fast-forward?
 
-Respuesta:
+Respuesta: Con fast-forward Git simplemente avanza el puntero de la rama, sin crear un commit de fusión independiente, cuando la historia lo permite.
 
 ---
 
 ### 5. Después del merge, ¿los commits hechos en `feature/descuento-estudiante` quedan en el historial de `develop`?
 
-Respuesta:
+Respuesta: Sí. Los commits de la rama feature pasan a formar parte del historial alcanzable desde develop después del merge, aunque se elimine la rama feature.
 
 ---
 
 ### 6. ¿Qué rol cumple una rama `release`?
 
-Respuesta:
+Respuesta: La rama release permite preparar y estabilizar una versión antes de publicarla, realizando correcciones y ajustes finales de documentación.
 
 ---
 
 ### 7. ¿Es posible usar Integración Continua con Git-flow? Justifica brevemente.
 
-Respuesta:
+Respuesta: Sí. Git-Flow organiza el trabajo mediante ramas y la integración continua permite ejecutar pruebas automáticas al subir cambios o crear pull requests, detectando errores antes de integrar código.
 
 ---
 
